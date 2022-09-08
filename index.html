@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=\, initial-scale=1.0">
-  <title>Document</title>
+  <title>Trucks service</title>
   <link rel="stylesheet" href="./style/css/main.min.css">
 </head>
 
@@ -612,12 +612,32 @@
             </li>
           </ul>
 
-          <img class="contact__table" src="./images/proceedings.png" alt="Table">
+          <picture>
+            <source class="contact__table" media="(max-width: 440px)" srcset="./images/proceedings-sm.png">
+            <img class="contact__table" src="./images/proceedings.png" alt="Table">
+          </picture>
         </div>
 
       </div>
     </section>
     <!-- Contacts section -->
+
+    <!-- About our work section -->
+    <section class="work">
+      <div class="container">
+        <h2 class="work__title">
+          Видео о нашей работе
+        </h2>
+        <p class="work__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Pharetra convallis posuere morbi leo urna. Eget sit amet tellus cras adipiscing. 
+        </p>
+        <video  width="100%" height="621px" controls>
+          <source src="./video/truck.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+    <!-- /About our work section -->
+    
   </main>
   <!-- /Main section -->
 </body>
