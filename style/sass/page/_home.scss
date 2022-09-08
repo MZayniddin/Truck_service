@@ -657,9 +657,8 @@
   }
 
   &__list {
-    max-width: 446px;
-    width: 100%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     grid-row-gap: 44px;
   }
@@ -748,6 +747,11 @@
       padding: 0;
     }
   }
+
+  .contact__table {
+    width: 770px;
+    height: 368px;
+  }
 }
 
 @include mixins.media(1070px) {
@@ -764,6 +768,25 @@
 
   .profitable-bottom__list {
     padding: 48.5px 0px 100px;
+  }
+
+  .contact {
+    &__title {
+      font-size: 44px;
+      margin-bottom: 64px;
+    }
+
+    &-wrapper {
+      flex-direction: column;
+    }
+
+    &__list {
+      margin-bottom: 64px;
+    }
+
+    &__table {
+      width: 100%;
+    }
   }
 }
 
