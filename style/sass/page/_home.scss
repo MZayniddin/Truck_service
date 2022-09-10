@@ -640,8 +640,13 @@
     align-items: center;
     gap: 20px;
 
+    a path {
+      transition: all 0.5s;
+    }
+
     a:hover path {
       fill: variables.$green-color;
+      transition: all 0.5s;
     }
   }
 }
